@@ -22,7 +22,7 @@ const Home = () => {
     ];
 
     return (
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center dark:bg-slate-800">
             {cardsData.map((card, index) => (
                 <Card
                     key={index}
